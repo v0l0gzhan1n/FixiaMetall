@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+  <title>Сайт-визитка</title>
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+  <header>
+    <div class="container">
+      <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"><img class="img-size" src="./img/logo.png" alt="" srcset=""></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Переключатель навигации">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse nav-gap navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav nav-text">
+              <li class="nav-item">
+                <a class="nav-link active text-underline" aria-current="page" href="#">Главная</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-underline" href="#">Рекомендуемые</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-underline" href="#">Цена</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle text-underline" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Наши продукты
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item text-underline" href="#">Металлочерепица</a></li>
+                  <li><a class="dropdown-item text-underline" href="#">Битумная черепица</a></li>
+                  <li><a class="dropdown-item text-underline" href="#">Композитная черепица</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+  </header>
+  <div class="container text-md-center text-style">
+    <h1>ФИКСИЯ МЕТАЛЛ</h1>
+    <p class="main-text">Металлочерепица, битумная черепица, композитная черепица воплощают прочность и надежность – выбирайте "Фиксию Металл" для крепкой защиты крыши вашего дома!</p>
+  </div>
+  <div class="container carousel-style">
+    <div id="carouselExampleCaptions" class="carousel slide ">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="./img/bitum.jpg" class="d-block w-100 border-carousel" alt="bitum">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Битумная черепица</h5>
+            <p>Обеспечьте надежную защиту своего дома с помощью высококачественной битумной черепицы, которая обладает долговечностью, прекрасным внешним видом и превосходными защитными свойствами от внешних воздействий!</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="./img/metall.jpg" class="d-block w-100 border-carousel" alt="metall">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Металлочерепица</h5>
+            <p>Обеспечьте надежную защиту вашего дома с помощью превосходной металлочерепицы, которая сочетает в себе элегантный дизайн, высокую прочность и надежную защиту от атмосферных воздействий!</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="./img/compozit.jpg" class="d-block w-100 border-carousel" alt="compozit">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Композитная черепица</h5>
+            <p>Повысьте эстетику и прочность вашего крыши с нашей инновационной композитной черепицей, которая объединяет изысканный дизайн, устойчивость к атмосферным воздействиям и удивительную легкость установки.</p>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Предыдущий</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Следующий</span>
+      </button>
+    </div>
+  </div>
+  
+  <div class="container accordion-style">
+    <div class="accordion" id="accordionPanelsStayOpenExample">
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button class="accordion-button acc-main" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+            Битумная черепица
+          </button>
+        </h2>
+        <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show">
+          <div class="accordion-body">
+            <p class="accordion-text">Битумная черепица - это легкий и прочный материал для кровли, изготовленный из стекловолокна или органического материала, обработанного битумом. Она предлагает надежную защиту для вашего дома, обеспечивая долговечность, эстетическую привлекательность и высокую степень защиты от различных погодных условий и внешних воздействий. Битумная черепица имеет разнообразие стилей и цветов, позволяющих подобрать оптимальное решение для вашего дома. Она также обладает отличными звукоизоляционными и теплоизоляционными свойствами, что помогает создать комфортный и уютный интерьер. Битумная черепица отличается простотой и быстрой установкой, что снижает затраты на монтаж и экономит ваше время. Она является одним из наиболее популярных и надежных материалов для кровли, предоставляя надежную защиту и привлекательный внешний вид для вашего дома на долгие годы.</p>
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header ">
+          <button class="accordion-button collapsed acc-main" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+            Металлочерепица
+          </button>
+        </h2>
+        <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse">
+          <div class="accordion-body">
+            <p class="accordion-text">Металлочерепица - это прочный и надежный материал для кровли, изготовленный из металлических листов. Она предлагает высокую защиту от погодных условий, обеспечивая долговечность и стойкость к различным внешним воздействиям. Металлочерепица обладает привлекательным и современным внешним видом, доступным в различных стилях и оттенках, что позволяет подобрать идеальный вариант для вашего дома. Она также является пожаробезопасным материалом и обладает отличными свойствами звукоизоляции и теплоизоляции. Металлочерепица производится с использованием инновационных технологий, что делает ее легкой и простой в установке, а также эффективной в долгосрочной эксплуатации. Она представляет собой отличное решение для долговечной и эстетически привлекательной кровли вашего дома.</p>
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button class="accordion-button collapsed acc-main" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+            Композитная черепица
+          </button>
+        </h2>
+        <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse">
+          <div class="accordion-body">
+            <p class="accordion-text">Композитная черепица - это инновационный материал для кровли, который сочетает в себе прочность и привлекательный внешний вид. Она изготавливается из специальных композитных материалов, таких как стекловолокно и различные пластмассы, которые обеспечивают высокую устойчивость к воздействию внешних факторов, таких как ультрафиолетовое излучение, сильные ветры и высокие температуры. Композитная черепица доступна в разнообразии стилей и цветов, что позволяет создать уникальный и привлекательный внешний вид для вашего дома. Она легкая и проста в установке, позволяя значительно сэкономить время и ресурсы при монтаже.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <footer class="footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4 col-md-6">
+          <h4>Контакты:</h4>
+          <ul class="footer-contact">
+            <li><i class="fas fa-map-marker-alt"></i> Адрес: ул. Новая, 12, г. Вологда</li>
+            <li><i class="fas fa-phone"></i> Телефон: +7 (800)-555-35-35</li>
+            <li><i class="fas fa-envelope"></i> Email: info@fixiametal.ru</li>
+          </ul>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <h4>Ссылки:</h4>
+          <ul class="footer-links">
+            <li><a href="#">Главная</a></li>
+            <li><a href="#">Рекомендуемые</a></li>
+            <li><a href="#">Цена</a></li>
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Наши продукты
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Металлочерепица</a></li>
+              <li><a class="dropdown-item" href="#">Битумная черепица</a></li>
+              <li><a class="dropdown-item" href="#">Композитная черепица</a></li>
+            </ul>
+          </ul>
+        </div>
+        <div class="col-lg-4 col-md-12">
+          <h4>Подписка на рассылку</h4>
+          <p class="footer-main">Получайте новости и актуальные предложения нашей компании:</p>
+          <form class="newsletter-form">
+            <input class="input" type="email" name="email" placeholder="Введите ваш email" required>
+            <button class="btn-sbmt" type="submit">Подписаться</button>
+          </form>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-12">
+          <hr class="footer-divider">
+        </div>
+        <div class="col-12">
+          <p class="text-center footer-main">&copy; 2023 Фиксия металл. Все права защищены.</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+</html>
